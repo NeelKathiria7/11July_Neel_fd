@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        div{
+            height: 250px;
+            width: 100%;
+            border-color: aqua;
+            border-width: 10px;
+            border-radius: 0px 100px;
+            border-style: solid;
+            /*border-top-style: groove;
+            border-right-style: ridge;
+            border-left-style: inset;
+            border-bottom-style: outset;*/
+            outline: 7px dashed rgb(13, 221, 228);
+            transition: 2s;
+        }
+        div:hover {
+            outline-offset: 3px;
+            background: lightseagreen;
+            cursor: ns-resize;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
